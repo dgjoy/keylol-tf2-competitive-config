@@ -54,18 +54,26 @@
 #### RandomPW
 
 在服务器控制台使用 `sm_random_pw <前缀>` 指令来给服务器根据当天日期设置一个密码。
+
 例如今天日期是8月13日，使用 sm_random_pw "keylol" 会给服务器设置密码 keylol0813
+
 使用 `sm_print_pw` 可以把密码输出给所有玩家的聊天框。
+
 如果需要给密码加上随机字符串，可以在源码里把我注释掉的代码还原回来。
 
 #### Whitelist
 
 实现赞助白名单功能。
+
 **使用的时候务必把 `reservedslot.smx` 移除掉。这个插件是从预留通道插件改造过来的，已经包含了 `reservedslot.smx` 的所有功能。**
-`sm_free_slots <number>` 指定免费通道的数量
-`sm_whitelist_add <steam3-id> <x>` 将指定玩家加入白名单，有效期x个月
+
+    `sm_free_slots <number>` 指定免费通道的数量
+    `sm_whitelist_add <steam3-id> <x>` 将指定玩家加入白名单，有效期x个月
+
 例如使用 `sm_whitelist_add "[U:1:39748236]"` 3 将玩家 [U:1:39748236] 加入白名单，有效期三个月。
+
 白名单的数据存放在 `addons/sourcemod/configs/player_whitelist.cfg` 里，使用 Unix 时间戳记录起止时间。
+
 插件会给白名单里的玩家打 custom(1) 权限标记。
 
 ## 规则
@@ -86,6 +94,7 @@
 ## Linux Daemon
 
 如果你使用 Linux，可以使用这里提供的 `srcds_daemon` 脚本。
+
 编辑这个文件，根据需要修改里面的用户名和启动参数。把它重命名为 `srcds`，放置到 `/etc/init.d`，之后你可以使用下列命令来控制服务器进程。
 
     service srcds {start|stop|restart|status}
@@ -93,5 +102,7 @@
 ## 如何使用这套配置
 
 网上能下载到的插件，建议自己从源站下载安装，一定要看插件的说明。比如有些插件依赖 SteamTools 扩展，有些依赖 cURL 扩展，这些需要你自己安装。
+
 对于我自己编写的插件，你可以在这里下载一份源码，阅读一遍了解原理后再自行重新编译安装。
+
 规则配置需要配合这里提供的 `server.cfg` 来使用。你可以按照需要进行修改。
