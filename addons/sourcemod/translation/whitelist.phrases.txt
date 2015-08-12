@@ -1,0 +1,54 @@
+"Phrases"
+{
+	"Slot reserved"
+	{
+		"en"			"Dropped to due to slot reservation"
+	}
+	"Whitelist Only"
+	{
+		"en"			"Only donator can join this server. Please consider donating. Contact: Email stackia@outlook.com / QQ 123395879"
+	}
+	"Not In Whitelist"
+	{
+		"#format"	"{1:d}"
+		"en"			"Only donator can join when there is more than {1} player(s) in this server. Please consider donating. Contact: Email stackia@outlook.com / QQ 123395879"
+	}
+	"Squeezed Out"
+	{
+		"en"			"Dropped to due to a donator joining this server. Please consider donating if you don't like this sudden kick. Contact: Email stackia@outlook.com / QQ 123395879"
+	}
+	"Donator Last Slot"
+	{
+		"en"			"Only donator can use the last available slot. Please consider donating. Contact: Email stackia@outlook.com / QQ 123395879"
+	}
+	"Add To Whitelist Succeed"
+	{
+		"#format"	"{1:s},{2:s},{3:s}"
+		"en"			"Successfully added {1} to whitelist, valid from {2} to {3}."
+	}
+	"Welcome Message Line 1"
+	{
+		"#format"	"{1:d}"
+		"en"			"{red}You are not a donator."
+	}
+	"Welcome Message Line 2"
+	{
+		"#format"	"{1:d}"
+		"en"			"{red}When there is more than {1} players online, you will no longer be able to join this server. If a donator joins when the server is full, you will probably be suddenly kicked out of here."
+	}
+	"Welcome Message Line 3"
+	{
+		"#format"	"{1:d}"
+		"en"			"{red}Please consider donating us. Thanks for your support.\n{unique}Contact：Email stackia@outlook.com / QQ 123395879"
+	}
+	"Whitelist Welcome Message"
+	{
+		"#format"	"{1:s},{2:s}"
+		"en"			"{lightskyblue}Welcome {1}. Thanks for your donation.\nYour donator identity will expire at {2}."
+	}
+	"Whitelist Welcome Message Public"
+	{
+		"#format"	"{1:s}"
+		"en"			"{orchid}Welcome donator {violet}{1}{orchid}."
+	}
+}

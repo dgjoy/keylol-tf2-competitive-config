@@ -1,0 +1,90 @@
+﻿"Phrases"
+{
+	"Sent1"
+	{
+		"#format"	"{1:s}"
+		"en"		"{Purple}[Unusual] {default} You don't have access to this command as {1}!"
+		"fr"		"{Purple}[Unusual] {default} Tu n'as pas access a cette commande en {1}!"
+		"chi"		"{Purple}[Unusual] {default} 作为 {1}，您无权执行该命令！"
+	}
+	"Sent2"
+	{
+		"en"		"{Purple}[Unusual] {default} No player found."
+		"fr"		"{Purple}[Unusual] {default} Aucun joueur trouve."
+		"chi"		"{Purple}[Unusual] {default} 未找到玩家。"
+	}
+	"Sent3"
+	{
+		"en"		"{Purple}[Unusual] {default} You don't have unusual effect!"
+		"fr"		"{Purple}[Unusual] {default} Tu n'as pas d'effet inhabituel!"
+		"chi"		"{Purple}[Unusual] {default} 您没有加任何特技。"
+	}
+	"Sent4"
+	{
+		"#format"	"{1:s}"
+		"en"		"{Purple}[Unusual] {default} {1} has been removed from the Database."
+		"fr"		"{Purple}[Unusual] {default} {1} a ete supprime de la base de donnee."
+		"chi"		"{Purple}[Unusual] {default} {1} 已从数据库中移除。"
+	}
+	"Sent5"
+	{
+		"en"		"{purple}[Unusual] {default} Invalid Player SteamID!"
+		"fr"		"{purple}[Unusual] {default} SteamID invalide!"
+		"chi"		"{Purple}[Unusual] {default} 无效的玩家 SteamID！"
+	}
+	"Sent6"
+	{
+		"en"		"{Purple}[Unusual] {default} Your unusual effects peridode is finished, you lost all your effects!"
+		"fr"		"{Purple}[Unusual] {default} Ta periode d'effets inhabituels est terminee, tu as perdu tous tes effets!"
+		"chi"		"{Purple}[Unusual] {default} 由于赞助身份已到期，您失去了所有的物品特效。"
+	}
+	"Sent7"
+	{
+		"en"		"{Purple}[Unusual] {default} You can't add more unusuals effects!"
+		"fr"		"{Purple}[Unusual] {default} Tu ne peux pas ajouter plus d'effets inhabituels!"
+		"chi"		"{Purple}[Unusual] {default} 您的特效数量已达上限。"
+	}
+	"Sent8"
+	{
+		"en"		"{Purple}[Unusual] {default} New effect added!"
+		"fr"		"{Purple}[Unusual] {default} Nouvel effets ajoute!"
+		"chi"		"{Purple}[Unusual] {default} 已添加新特效！"
+	}
+	"Sent9"
+	{
+		"en"		"{Purple}[Unusual] {default} Invalid Player!"
+		"fr"		"{Purple}[Unusual] {default} Joueur invalide!"
+		"chi"		"{Purple}[Unusual] {default} 无效的玩家！"
+	}
+	"Sent10"
+	{
+		"en"		"{Purple}[Unusual] {default} You have been removed from the Database."
+		"fr"		"{Purple}[Unusual] {default} Tu as ete supprime de la base de donnee."
+		"chi"		"{Purple}[Unusual] {default} 您已从数据库中移除。"
+	}
+	"Sent11"
+	{
+		"#format"	"{1:N}"
+		"en"		"{Purple}[Unusual] {default} {1} has been removed from the Database."
+		"fr"		"{Purple}[Unusual] {default} {1} a ete supprime de la base de donnee."
+		"chi"		"{Purple}[Unusual] {default} {1} 已从数据库中移除。"
+	}
+	"Sent12"
+	{
+		"en"		"{purple}[Unusual] {default} Effect deleted!"
+		"fr"		"{purple}[Unusual] {default} Effet suprime!"
+		"chi"		"{Purple}[Unusual] {default} 特效已删除。"
+	}
+	"Sent13"
+	{
+		"en"		"{purple}[Unusual] {default} Warning : Gunslinger and Lollichop are not allowed!"
+		"fr"		"{purple}[Unusual] {default} Attention: Le Flingueur et la sussache ne sont pas autorises!"
+		"chi"		"{Purple}[Unusual] {default} 警告：Gunslinger 和 Lollichop 无法添加特效。"
+	}
+	"Sent14"
+	{
+		"en"		"{purple}[Unusual] {default} No item found!"
+		"fr"		"{purple}[Unusual] {default} Aucun objet trouve!"
+		"chi"		"{Purple}[Unusual] {default} 没有找到物品！"
+	}
+}

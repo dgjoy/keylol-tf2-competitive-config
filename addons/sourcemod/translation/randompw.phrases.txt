@@ -1,0 +1,8 @@
+"Phrases"
+{
+	"New Password"
+	{
+		"#format"	"{1:s}"
+		"en"			"Server password set to {green}{1}"
+	}
+}

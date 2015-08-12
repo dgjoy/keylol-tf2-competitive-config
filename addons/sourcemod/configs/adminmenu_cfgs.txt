@@ -1,0 +1,18 @@
+/**
+ * List config files here (relative to moddir) to have them added to the exec config menu list
+ * Left side is the filename, right side is the text to be added to the menu
+ */
+Configs
+{
+	"cfg/server.cfg"			"Reload Standard Server Setup"
+  "cfg/reset_to_mge.cfg"			"Reset Server to MGE Mode"
+  "cfg/broadcast_maplist.cfg"			"Broadcast Competitive Map List"
+  "cfg/tournment/afc_push.cfg"	"AFC7 6v6 Push"
+  "cfg/tournment/afc_koth.cfg"	"AFC7 6v6 King of the Hill"
+  "cfg/tournment/ugc_6v_standard.cfg"	"UGC 6v6 Standard"
+  "cfg/tournment/ugc_6v_standard_overtime.cfg"	"UGC 6v6 Standard (Overtime)"
+  "cfg/tournment/ugc_6v_stopwatch.cfg"	"UGC 6v6 Stopwatch"
+  "cfg/tournment/ugc_6v_golden.cfg"	"UGC 6v6 Golden"
+  "cfg/tournment/ugc_6v_koth.cfg"	"UGC 6v6 King of the Hill"
+  "cfg/tournment/ugc_6v_koth_overtime.cfg"	"UGC 6v6 King of the Hill (Overtime)"
+}

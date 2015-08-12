@@ -1,0 +1,47 @@
+"Phrases"
+{
+	"Slot reserved"
+	{
+		"chi"			"无权使用保留通道而被踢出"
+	}
+	"Whitelist Only"
+	{
+		"chi"			"只有赞助玩家才能进入。请考虑联系赞助本服务器：QQ 123395879 / Email stackia@outlook.com"
+	}
+	"Not In Whitelist"
+	{
+		"chi"			"当服务器多于{1}个玩家时，只有赞助者才能进入游戏。请考虑联系赞助本服务器：QQ 123395879 / Email stackia@outlook.com"
+	}
+	"Squeezed Out"
+	{
+		"chi"			"您不是本服务器赞助玩家，由于服务器人满，其他赞助者的加入导致您被踢出。请考虑联系赞助本服务器：QQ 123395879 / Email stackia@outlook.com"
+	}
+	"Donator Last Slot"
+	{
+		"chi"			"当服务器只剩最后一个空位时，只有赞助玩家才能进入。请考虑联系赞助本服务器：QQ 123395879 / Email stackia@outlook.com"
+	}
+	"Add To Whitelist Succeed"
+	{
+		"chi"			"已成功将 {1} 加入白名单，有效期从 {2} 到 {3}。"
+	}
+	"Welcome Message Line 1"
+	{
+		"chi"			"{red}您不是本服务器赞助玩家。"
+	}
+	"Welcome Message Line 2"
+	{
+		"chi"			"{red}当服务器超过{1}名玩家时，您将无法再加入游戏。当服务器人满时，如果有赞助玩家加入，您可能会被突然踢出。"
+	}
+	"Welcome Message Line 3"
+	{
+		"chi"			"{red}请考虑赞助本服务器，谢谢您的支持。\n{unique}联系方式：QQ 123395879 / Email stackia@outlook.com"
+	}
+	"Whitelist Welcome Message"
+	{
+		"chi"			"{lightskyblue}欢迎光临 {1}，感谢您对本服务器的赞助。\n您的赞助身份将在 {2} 终止。"
+	}
+	"Whitelist Welcome Message Public"
+	{
+		"chi"			"{orchid}欢迎赞助玩家 {violet}{1} {orchid}加入游戏。"
+	}
+}
