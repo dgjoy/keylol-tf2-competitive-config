@@ -70,7 +70,7 @@
     `sm_free_slots <number>` 指定免费通道的数量
     `sm_whitelist_add <steam3-id> <x>` 将指定玩家加入白名单，有效期x个月
 
-例如使用 `sm_whitelist_add "[U:1:39748236]"` 3 将玩家 [U:1:39748236] 加入白名单，有效期三个月。
+例如使用 `sm_whitelist_add "[U:1:39748236]" 3` 将玩家 [U:1:39748236] 加入白名单，有效期三个月。
 
 白名单的数据存放在 `addons/sourcemod/configs/player_whitelist.cfg` 里，使用 Unix 时间戳记录起止时间。
 
